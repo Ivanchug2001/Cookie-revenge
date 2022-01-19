@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - plataforma
+  - enemy
+  - puerta
+  - fondo
+  - fantasma
+  - gamemanager
+  - victory
   layers:
   - Default
   - TransparentFX
