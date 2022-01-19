@@ -375,6 +375,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: playercookie
       objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: UP_Messenger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5720069748610769797, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
+      propertyPath: onKeyDown.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bf8262a5b9cf89459abf2bda320c2be, type: 3}
 --- !u!1 &330065124

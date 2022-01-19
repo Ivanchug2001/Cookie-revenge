@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dceca0cd5c238864c8cc2ef68eea12da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: izquierda
+  message: derecha
   onMessageReceived:
     m_PersistentCalls:
       m_Calls:

@@ -518,6 +518,7 @@ GameObject:
   - component: {fileID: 3565325168978491514}
   - component: {fileID: 1471492854083371876}
   - component: {fileID: 4366182956570941572}
+  - component: {fileID: 5773016027279659318}
   m_Layer: 0
   m_Name: salto d
   m_TagString: Untagged
@@ -646,6 +647,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5773016027279659318}
+        m_TargetAssemblyTypeName: UP_Messenger, Assembly-CSharp
+        m_MethodName: UP_SendMessage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4366182956570941572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,6 +718,25 @@ MonoBehaviour:
   onKeyUp:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5773016027279659318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7350971066144020378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6991728457b887e41b2045809e2eba36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receiverType: 2
+  receiver: {fileID: 0}
+  receiverName: 
+  receiverTag: plataforma
+  message: derecha
+  messages: []
+  randomizeMessage: 0
 --- !u!1 &7615534396753685011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1080,7 @@ GameObject:
   - component: {fileID: 1104118221460083486}
   - component: {fileID: 1264912527301813247}
   - component: {fileID: 1059696560828587082}
+  - component: {fileID: 6583803851424295244}
   m_Layer: 0
   m_Name: salto a
   m_TagString: Untagged
@@ -1176,6 +1209,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6583803851424295244}
+        m_TargetAssemblyTypeName: UP_Messenger, Assembly-CSharp
+        m_MethodName: UP_SendMessage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1059696560828587082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1235,3 +1280,22 @@ MonoBehaviour:
   onKeyUp:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6583803851424295244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8830037990332613547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6991728457b887e41b2045809e2eba36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  receiverType: 2
+  receiver: {fileID: 0}
+  receiverName: 
+  receiverTag: plataforma
+  message: izquierda
+  messages: []
+  randomizeMessage: 0
